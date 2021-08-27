@@ -10,5 +10,4 @@
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
 
-# Modify default IP
-sed -i 's/192.168.1.1/10.7.30.1/g' package/base-files/files/bin/config_generate
+sed -i 's/4.14/4.9/g' target/linux/x86/Makefile
